@@ -1,13 +1,14 @@
-
-# RTMP to WebRTC Streaming Application
+# RTP to WebRTC Streaming Application
 
 This project re-streams media from a source to WebRTC using a Go server and FFmpeg for RTP streaming. It provides real-time audio and video from a specified media file to a WebRTC client in the browser, using WebSockets for automated SDP and ICE exchange.
-Features
 
-Streams audio and video from a media file (e.g., .mp4) to a WebRTC client.
-WebSocket-based signaling for automated SDP and ICE candidate exchange.
-Configurable RTP ports for audio and video ingestion.
-Improved error handling and logging for production-ready robustness.
+## Features
+- Streams audio and video from a media file (e.g., .mp4) to a WebRTC client.
+- WebSocket-based signaling for automated SDP and ICE candidate exchange.
+- Configurable RTP ports for audio and video ingestion.
+- Improved error handling and logging for production-ready robustness.
+- Includes a TURN server (Pion Simple TURN Server) for NAT traversal and enhanced connectivity.
+
 
 ## Prerequisites
 
